@@ -185,6 +185,7 @@
 		-v /dev:/dev \
 		-v /sys:/sys \
 		-v /etc/vart.conf:/etc/vart.conf \
+    -v /usr/lib/dpu.xclbin:/usr/lib/dpu.xclbin \
 		-v /lib/firmware/xilinx:/lib/firmware/xilinx \
 		-v /run:/run \
 		-it xilinx/smartcam:latest bash
